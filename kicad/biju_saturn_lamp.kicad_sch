@@ -1435,6 +1435,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 26.416 88.392 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a1060fd-e71e-40bd-b50b-9645bd5fef34)
+    (property "Reference" "#PWR015" (at 20.066 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 22.86 88.392 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 26.416 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 26.416 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6199c718-3501-4c9c-8d09-5ebc6b57e425))
+    (instances
+      (project "biju_saturn_lamp"
+        (path "/ad563cc9-592a-4a72-b118-713be0da33dd"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 24.638 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a871049-2297-4496-89c2-ac871cf033e1)
@@ -1530,6 +1555,31 @@
       (project "biju_saturn_lamp"
         (path "/ad563cc9-592a-4a72-b118-713be0da33dd"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 61.976 88.392 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54092cad-62a7-4d42-b977-640c266777c0)
+    (property "Reference" "#PWR014" (at 68.326 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 65.532 88.392 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 61.976 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 61.976 88.392 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b693626-56c2-4d1d-8a20-70b386abb4f6))
+    (instances
+      (project "biju_saturn_lamp"
+        (path "/ad563cc9-592a-4a72-b118-713be0da33dd"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
